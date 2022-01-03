@@ -1,0 +1,12 @@
+.Cell {
+	border: 3px solid black;
+	width: 100%;
+	aspect-ratio: 1;
+	display: grid;
+	place-content: center;
+}
+
+.Cell > img {
+	width: 95%;
+	aspect-ratio: 1;
+}

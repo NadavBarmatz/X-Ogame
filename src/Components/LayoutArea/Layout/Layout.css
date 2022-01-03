@@ -1,0 +1,25 @@
+.Layout {
+	border: 1px solid black;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.Layout > * {
+    box-sizing: border-box;
+    display: grid;
+    place-items: center;
+}
+
+.Layout header{
+	border: 1px solid black;
+    height: 20%;
+}
+
+.Layout main{
+	border: 1px solid black;
+    height: 70%;
+}
+
+.Layout footer{
+    height: 10%;
+}

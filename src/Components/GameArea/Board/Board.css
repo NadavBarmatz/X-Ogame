@@ -1,0 +1,13 @@
+.Board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 25%;
+  aspect-ratio: 1;
+  border: 3px solid black;
+}
+
+.Btn-group {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
